@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Open+Sans:wght@400;600;700&family=Oswald:wght@400;500;600;700&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;500;700&display=swap");
+
+/* font size */
+$h1-font-size: 40px;
+$h2-font-size: 32px;
+$h3-font-size: 28px;
+$h4-font-size: 24px;
+$h5-font-size: 20px;
+$h6-font-size: 16px;
+$font-size-base: 16px;
+$button-font-size: 14px;
+
+/* font-family */
+$headings-font: Roboto, Arial;
+$btn-font: "Roboto Condensed", sans-serif;
+$main-font: Helvetica;
+//headings
+
+/* line heights */
+
+//headings
+$headings-margin-bottom: 0.5rem;
+$headings-font-family: $headings-font;
+$headings-line-height: 1.2;
+
+//normal line height
+$line-height-base: 1.5 !default;
+$line-height-sm: 1.25 !default;
+$line-height-lg: 2 !default;
+
+//on page
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $headings-font;
+	margin-bottom: $headings-margin-bottom;
+	line-height: $headings-line-height;
+}
+
+h1 {
+	font-size: $h1-font-size;
+}
+h2 {
+	font-size: $h2-font-size;
+}
+h3 {
+	font-size: $h3-font-size;
+}
+h4 {
+	font-size: $h4-font-size;
+}
+h5 {
+	font-size: $h5-font-size;
+}
+h6 {
+	font-size: $h6-font-size;
+}
+
+p {
+	font-size: $font-size-base;
+}
